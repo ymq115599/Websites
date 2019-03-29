@@ -123,7 +123,6 @@ background-size:cover;
 width: 25%;
 height: 25%;
 left:0px;
-
 margin-bottom: 0px;
 }
 .mainBanner h1, .mainBanner .h1 {
@@ -140,12 +139,13 @@ text-align:left;
 color: #DDE3EA;
 }
 .mainBanner  img.img-iPhone {
-position: relative;
-top: 60px;
-right: 0px;
-bottom: 0px;
+/* position: relative; */
+margin-top: 60px;
 width: 25%;
 height: 25%;
+margin-right: 0px;
+margin-bottom: 0px;
+
 }
 .mainBanner .btn-app-store {
 margin-top: 40px;
@@ -163,7 +163,7 @@ line-height: 32px;
 padding: 0;
 }
 .mainBanner .img-iPhone {
-margin-top:0px;
+/* margin-top:0px; */
 /* margin-left: auto; */
 margin-right: 0px;
 }
@@ -299,8 +299,8 @@ overflow: hidden;
 @media (max-width: 768px) {
 .mainBanner .img-logo {
 display: initial;
-width: auto;
-height: auto;
+width: 25%;
+height: 25%;
 margin-top: 50px;
 margin-bottom: 40px;
 }
@@ -317,7 +317,7 @@ text-align:center;
 }
 .mainBanner .img-iPhone { 
 width: 267px; 
-bottom: -106px;display: none;}
+bottom: -106px;display: initial;}
 header .buttons-wrapper {
     padding-top: 21px;
     padding-bottom: 50px;
